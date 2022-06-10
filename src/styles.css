@@ -96,7 +96,9 @@ html {
 }
 
 .main-content {
+  /*
   padding-top: 2rem;
+  */
   color: #3c4172;
   font-family: 'Poppins', sans-serif;
 }
@@ -167,7 +169,7 @@ html {
 }
 
 .main-content .section-light.about-me {
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 .main-content .section-light.about-me .is-larger {
@@ -208,7 +210,7 @@ html {
 }
 
 .main-content .section-light.contact {
-  padding: 200px;
+  padding: 50px;
 }
 
 .main-content .section-light.contact button {
@@ -352,4 +354,8 @@ body.preloader-site {
 
 .heading {
     text-align: left;
+}
+
+.indent {
+    text-indent: 1.5em;
 }
