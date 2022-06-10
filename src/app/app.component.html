@@ -44,14 +44,14 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <h2>Table Tennis</h2>
           </div>
         </div>
       </nav>
     </div>
     <!-- Begin Mobile Nav -->
+    <!--
+
     <nav class="navbar is-transparent is-hidden-desktop">
-      <!-- Begin Burger Menu -->
       <div class="navbar-brand">
         <div class="navbar-burger burger" data-target="mobile-nav">
           <span></span>
@@ -59,7 +59,6 @@
           <span></span>
         </div>
       </div>
-      <!-- End Burger Menu -->
       <div id="mobile-nav" class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item">
@@ -95,13 +94,13 @@
         </div>
       </div>
     </nav>
+    -->
     <!-- End Mobile Nav -->
     <!-- Begin Hero Content-->
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="subtitle">The Lubbock</h1>
+        <h1 class="subtitle">Lubbock</h1>
         <h2 class="title">Table Tennis</h2>
-        <h1 class="subtitle profession">Club (this is ugly)</h1>
         <!--
         <h1 class="subtitle">Hey there, I'm</h1>
         <h2 class="title">Ashley</h2>
@@ -142,63 +141,7 @@
 <!-- Begin Main Content -->
 <div class="main-content">
   <!-- Begin About Me Section -->
-  <div class="section-light about-me" id="meeting-info">
-    <div class="container">
-      <div class="column is-12 about-me">
-        <h1 class="title has-text-centered section-title">Meeting Info</h1>
-      </div>
-      <div class="columns is-multiline">
-        <div
-          class="column is-6 has-vertically-aligned-content"
-          data-aos="fade-right">
-          <!--
-            <p class="is-larger">
-              &emsp;&emsp;<strong>
-
-                </strong>
-            </p>
-            <br />
-          -->
-          <p>
-              The club meets at <a href="https://ci.lubbock.tx.us/departments/parks-recreation/recreation/maggie-trejo-supercenter">Maggie Trejo Supercenter</a>
-              at 3200 Amherst St, Lubbock, TX 79415 (<a href="https://goo.gl/maps/6ut1PGhX1QXviNPo9">Google Maps link</a>).
-              We meet for the following days and corresponding times:
-          </p>
-          <br />
-          <div class="is-divider"></div>
-          <div class="columns about-links is-mobile is-centered">
-            <div class="column is-narrow">
-              <p class="heading">
-                <strong>Day</strong>
-              </p>
-              <p class="subheading">
-                Monday<br>
-                Wednesday<br>
-                Saturday
-              </p>
-            </div>
-            <div class="column is-narrow">
-              <p class="heading">
-                <strong>Time</strong>
-              </p>
-              <p class="subheading">
-                5:30PM - 7:30PM<br>
-                5:30PM - 7:30PM<br>
-                9:00AM - 1:00PM
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="column is-6 right-image " data-aos="fade-left">
-          <img
-            class="is-rounded"
-            src="assets/meetings.jpeg"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-  </div>
+  <app-meeting-info id="meeting-info"></app-meeting-info>
   <!-- End About Me Content -->
   <!--
     <div class="section-dark resume">
