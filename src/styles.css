@@ -42,6 +42,7 @@ html {
 .hero .subtitle {
   padding: 5px;
   color: whitesmoke;
+  font-size: 2rem;
 }
 
 .hero .profession {
@@ -209,10 +210,6 @@ html {
   padding: 10px;
 }
 
-.main-content .section-light.contact {
-  padding: 50px;
-}
-
 .main-content .section-light.contact button {
   width: 100%;
   background-color: #43485c;
@@ -221,12 +218,6 @@ html {
   font-size: 1.1rem;
   text-transform: uppercase;
   font-family: 'Poppins', sans-serif;
-}
-
-@media (max-width: 599px) {
-  .main-content .section-light.contact {
-    padding: 60px 20px;
-  }
 }
 
 .main-content .section-color.services {
