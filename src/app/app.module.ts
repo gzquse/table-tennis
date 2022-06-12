@@ -9,6 +9,7 @@ import { HeaderComponent } from './sections/header/header.component';
 import { ContactUsComponent } from './sections/contact-us/contact-us.component';
 import { AboutUsComponent } from './sections/about-us/about-us.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MoreComponent } from './sections/more/more.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MeetingInfoComponent,
     HeaderComponent,
     ContactUsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    MoreComponent
   ],
   imports: [
     BrowserModule,

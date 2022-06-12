@@ -352,3 +352,11 @@ body.preloader-site {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.button.is-link.is-light {
+    background-color: #e5e5e5;
+}
+
+.max-500px {
+    max-width: 500px;
+}
