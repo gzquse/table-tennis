@@ -364,3 +364,21 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .max-500px {
     max-width: 500px;
 }
+
+.group-image img {
+  border-radius: 11px;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+@media (min-width: 600px) {
+    .group-image-container {
+        min-width: 450px;
+    }
+}
+
+@media(max-width: 599px) { /* <== You can change this break point as per your  needs */
+  .reverse-columns {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
