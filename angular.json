@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "table-tennis:build:production"
+              "buildTarget": "table-tennis:build:production"
             },
             "development": {
-              "browserTarget": "table-tennis:build:development"
+              "buildTarget": "table-tennis:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "table-tennis:build"
+            "buildTarget": "table-tennis:build"
           }
         },
         "test": {
